@@ -1,0 +1,139 @@
+ 1. WAP to print "Hello" on screen.
+2. WAP to input a integer variable and print the value of integer variable.
+3. WAP to add two integer variable.
+4. WAP to calculate the Simple Interest where Principal Amount, Interest Rate and Time Duration will be entered through keyboard.
+5. WAP to find the area of circle where radius of circle will be entered through keyboard.
+6. WAP to find the average of three integer value.
+7. WAP to find the temperature in Celsius where temperature is given in farenhite.
+8. WAP to calculate gross salary where basic salary will be entered through keyboard and DA will 30% of basic salary and HRA will be 18% of basic salary.
+9. WAP to swap two integer variable.
+10. WAP to calculate the percentage of a student marks where marks will be entered through keyboard and amongst five subject two subject of maximum 50 marks and remaining subjects of maximum 100 marks.
+11. WAP to print the ASCII value of every character.
+12. WAP to convert lower case letter in to UPPER case letter.
+13. WAP to convert UPPER case letter in to lower case letter. 
+14. WAP to swap two numbers without using third variable.
+15. WAP to find roots of quadratic equation where a, b & c will be entered by user.
+Conditional Statements:-
+16. WAP to find whether a number is even or odd.
+17. WAP to find that a year is a leap year or not.
+18. WAP to find greater number amongst two numbers.
+19. WAP to find greater amongst three numbers.
+20. WAP to calculate the discount on the purchase done by user. Discount is given as follows.
+ If purchase amount is less than 1000 then no discount will be given.
+ If purchase amount is greater than or equal to 1000 and less than 2000 discount will be 5%.
+ If purchase amount is greater than or equal to 2000 and less than 3000 discount will be 10%.
+ If purchase amount is greater than or equal to 3000 and less than 4000 discount will be 15%.
+ And If purchase amount is greater than 4000 then discount will be 20%.
+21. WAP to print the division of a student where division rules are as follows:
+ Percentage above or equal to 60 - First division
+ Percentage between 50 and 59 - Second division 
+ Percentage between 40 and 49 - Third division 
+ Percentage less than 40 – Fail
+22. WAP to find sum from 1 to 100.
+23. WAP to find how many positive, negative and zero are being entered by user in 20 numbers.
+24. WAP to find how many even numbers present between 61 to 75.
+25. WAP to draw following pattern.
+*
+**
+***
+****
+*****
+26. WAP to check wether a person is eligible for VOTING or NOT where age of person will be entered through keyboard.
+27. WAP to check that a character which is entered by user is a special character, UPPER CASE character or a lower case character.
+28. WAP to check that a character entered by user is vowel or not.
+29. WAP to input electricity unit charges and calculate total electricity bill according to the given condition:
+For the first 50 units Rs. 0.50/unit
+For the next 100 units Rs. 0.75/unit
+For the next 100 units Rs. 1.20/unit
+For unit above 250 Rs. 1.50/unit
+An additional surcharge of 20% is added to the bill.
+30. WAP to find the factorial of a given number using loop.
+31. WAP to count the nunber of digits in a given number. 
+For example:-
+Number=7896 
+Number of digits=4
+32. WAP to find the sum of digits of a given number.
+For example:-
+Number=4371
+Sum of digits=4+3+7+1=15
+33. WAP to reverse a given number.
+For example:-
+Number=6402
+Reverse Number=2046
+34. WAP to find the sum of 50 numbers from user and if at any point entered data is divisible by 35 then stop the process.
+35. WAP to print the multiplication of numbers which are divisible by 7 between 11 and 30.
+36. WAP to make such a pattern like a pyramid with an asterisk.
+   * 
+  *** 
+ ***** 
+*******
+37. WAP to implement the calculator using switch case.
+38. WAP to display user details using switch case where user enters his/her id from keyboard.
+39. DRY RUN the following program and see what will be your EXPECTED OUTPUT.
+#include <stdio.h>
+void main()
+{
+ int i = 2;
+ EVEN:
+ printf("%d ", i);
+ i = i + 2;
+ if(i <= 20)
+ goto EVEN;
+}
+40. DRY RUN the following program and see what will be your EXPECTED OUTPUT.
+ #include <stdio.h>
+ void main()
+ { 
+ int a=1, b=2, c=3, d=4;
+ printf("%d ", a);
+ goto L1;
+ printf("%d ", b);
+ L1: goto L2;
+ printf("%d ", c);
+ L2: printf("%d ", d);
+ }
+41. WAP to display the cube of the number upto a given integer using function.
+42. WAP to display the sum of odd natural numbers between two given natural numbers using function.
+43. WAP to calculate the factorial of a given number using function.
+44. WAP to print the a^a using function.
+45. WAP to print the given series using function.
+ x^1+x^3+x^5+x^7+x^9+...
+46. WAP to check whether a given number is a perfect number or not using function.
+47. WAP to check whether a given number is a armstrong number or not using function.
+48. WAP to check whether a given number is a prime number or not using function.
+49. WAP to check whether a given number is a strong number or not using function.
+50. WAP to check whether a given number is a palindrome number or not using function.
+51. WAP to display the first n terms of Fibonacci Series using function.
+52. WAP to find out the sum of a A.P series using function.
+53. WAP to convert a decimal number into binary number using function.
+54. WAP to find the Highest Common Factor (HCF) of two numbers using function.
+55. WAP to find the Least Common Multiplication (LCM) of two numbers using function.
+56. WAP to read n integer values in an array and display it in reverse order.
+57. WAP to find the sum of all elements of an 50 element integer array.
+58. WAP to sum two arrays of same size into the third array.
+59. WAP to copy the elements of one array into another array.
+60. WAP to merge two arrays of same size into a third array.
+61. WAP to count the frequency of each element of an array.
+62. WAP to find the maximum and minimum element in the array.
+63. WAP to filter the odd and even numbers in an array to separate arrays.
+64. WAP to find the second largest element in an array.
+65. WAP to find the second smallest element in an array.
+66. WAP to merge two sorted array into a single sorted array.
+67. WAP to add the elements of two 2-Dimensional array of size 4X3 and save the result in third array.
+68. WAP to find the sum of all diagonal elements of a square matrix.
+69. WAP to find the sum of lower triangular of a matrix.
+70. WAP to check whether the matrix is symmetric matrix or not.
+71. WAP to find the length of a string without using library function.
+72. WAP to copy one string into another without using library function.
+73. WAP to compare two strings without using library function.
+74. WAP to cancatenate two strings without using library function.
+75. WAP to print the string in reverse order.
+76. WAP to count the total number of words in a string.
+77. WAP to count total number of alphabets, digits and special characters in a string.
+78. WAP to convert a lower case string into UPPER case string.
+79. WAP to search a given word into a string.
+80. WAP to find the smallest and largest word in a string.
+
+
+
+
